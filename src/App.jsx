@@ -433,7 +433,7 @@ const TermBg = () => {
   }
 
   return (
-    <div ref={ref} style={{ position: "static", inset: 0, zIndex: 0, overflow: "hidden",
+    <div ref={ref} style={{ position: "fixed", inset: 0, zIndex: 0, overflow: "hidden",
       background: "radial-gradient(ellipse 120% 70% at 50% 0%,#0a1a38,transparent 65%),radial-gradient(ellipse 80% 60% at 100% 100%,#061220,transparent 60%),linear-gradient(160deg,#07111f,#050c18 50%,#06101c)" }}>
       {/* Grid */}
       <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(0,200,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(0,200,255,.035) 1px,transparent 1px)", backgroundSize: "48px 48px", maskImage: "radial-gradient(ellipse 90% 90% at 50% 50%,black 40%,transparent 100%)" }} />

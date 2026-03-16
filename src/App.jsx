@@ -620,7 +620,21 @@ const Nav = () => {
   }, []);
   const links = [["#hero","PROFILE"],["#skills","SKILLS"],["#projects","MODULES"],["#experience","LOGS"],["#contact","CONNECT"]];
   return (
-    <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 800, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 clamp(14px,3vw,32px)", height: 46, background: "rgba(5,12,24,.92)", borderBottom: "1px solid rgba(0,200,255,.22)", backdropFilter: "blur(14px)", fontFamily: S.font }}>
+    <nav style={{ position: "fixed",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 800,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+    padding: "8px clamp(14px,3vw,32px)",
+    minHeight: 46,
+    background: "rgba(5,12,24,.92)",
+    borderBottom: "1px solid rgba(0,200,255,.22)",
+    backdropFilter: "blur(14px)",
+    fontFamily: S.font }}>
       <div style={{ fontSize: "clamp(9px,1.5vw,11px)", color: S.g, letterSpacing: 3 }}>
         MANI<span style={{ color: S.b }}>SHARMA</span>
         <span style={{ color: S.t2, marginLeft: 8 }}>// NET_OPS</span>

@@ -722,7 +722,7 @@ const HeroSection = () => {
   const stats = [[5,"Projects"],[4,"Yrs Learning"],[15,"Technologies"],[1,"Industry Exp"]];
 
   return (
-    <section id="hero" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "0px clamp(16px,4vw,36px) 60px", maxWidth: 1060, margin: "0 auto" }}>
+    <section id="hero" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "130px clamp(16px,4vw,36px) 60px", maxWidth: 1060, margin: "0 auto" }}>
       {/* Command line */}
       <Reveal style={{ width: "100%" }}>
         <div style={{ fontSize: "clamp(11px,1.5vw,13px)", color: S.g2, marginBottom: 18, fontFamily: S.font }}>

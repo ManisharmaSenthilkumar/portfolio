@@ -780,7 +780,7 @@ const HeroSection = () => {
 
       {/* Stat counters */}
       <Reveal delay={0.18} style={{ width: "100%", marginTop: 28 }}>
-       <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 16, width: "100%" }}>
+       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: 12, width: "100%" }}>
           {stats.map(([n, l]) => <StatCard key={l} target={n} label={l} />)}
         </div>
       </Reveal>

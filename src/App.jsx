@@ -72,7 +72,7 @@ const DATA = {
       tags: ["Figma", "Framer", "Spline"],
       desc: "Designed and prototyped a 3D user interface for Apple Music with depth, motion, and interactive elements. Built complete 3D UI architecture with realistic textures, spatial hierarchy, and usability focus.",
       feats: ["3D depth & motion design", "Realistic texture mapping", "Spatial hierarchy layout", "Interactive prototyping in Framer"],
-      demo: "https://www.figma.com/design/4rsn5s0mXQJHa3qdG2YGU8/Untitled?node-id=0-1&t=JnazpLg4WRStzQZi-1",
+      demo: "https://www.figma.com/proto/4rsn5s0mXQJHa3qdG2YGU8/Untitled?node-id=202-11&p=f&t=RafLsIJjfJSHuP4v-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=236%3A2004&show-proto-sidebar=1",
     },
     {
       name: "3D UI Design — Master & Dynamic",
